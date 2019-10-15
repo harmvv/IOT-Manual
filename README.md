@@ -5,7 +5,7 @@
 In this tutorial we are going to generate a key for the YouTube API and create a website where we can use the API to display YouTube content. After this tutorial you know how to get data from YouTube. 
 
 #### Disclaimer
-After this Tutorial you know how to get data from the API and help you get started how to use that data, but this tutorial wil not explain how to turn that data to a youtube video on your website. 
+After this Tutorial you know how to get data from the API, display this data in the Console and help you get started how to use that data, but this tutorial wil not fully explain how to turn that data to a youtube video on your website. 
 
 
 ### First things First
