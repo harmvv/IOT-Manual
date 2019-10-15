@@ -1,33 +1,41 @@
 # IOT-Manual
-Manual for the Youtube Data API V3
+## Manual for the Youtube Data API V3
 
-How to implement the YouTube API v3 in your project.
+### How to implement the YouTube API v3 in your project, get data from the youtube API and display it as Json in the Console.
 In this tutorial we are going to generate a key for the YouTube API and create a website where we can use the API to display YouTube content.
 
-First go to https://developers.google.com/youtube/v3 and login with your Google account.
-If you don’t have a account, create one. Here you can find all the information about the YouTube V3 API.
 
-First we have to create a new project in the google console, this is a place where you can find your google projects.
+### First things First
+Go to https://developers.google.com/youtube/v3 and login with your Google account.
+If you don’t have a account, create one. Here you can find all the information about the YouTube V3 API and what to do with it.
+
+### New project in the Google Console
+1. We have to create a new project in the google console, this is a place where you can find your google projects.
 https://console.developers.google.com/?hl=nl
-
 
 Create a new project in the google developers console. You can do this in the upper left next to the Google API’s logo 
 
 ![Image that shows how to create a google project](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Afbeelding1.png)
 
-Start a new project, give it a new and follow the steps and generate a key for the YouTube API V3. In the location field you don’t have to change anything but you can create folders.
+2. Start a new project, give it a new and follow the steps and generate a key for the YouTube API V3. In the location field you don’t have to change anything but you can create folders.
 
-Once created, browse to your project its in the spot next to the Google API logo.  
+3. Once created, browse to your project its in the spot next to the Google API logo.  
 
  ![Image that shows how to add a new api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.56.40.png)
 
-Choose enable API’s and services, search for YouTube and choose the YouTube Data API V3.
+4. Choose enable API’s and services, search for YouTube and choose the YouTube Data API V3.
  
  ![Image that shows the search for the youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.57.47.png)
  
-Choose enable wait a few seconds. The API is now added to your project. Click in the left menu for Credentials. There should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. Choose API key. And there you go your YouTube Data API V3 key.
+5. Choose enable wait a few seconds. The API is now added to your project. 
 
-Save this key and protect it, you should treat your key like your password.
+6. Click in the left menu for Credentials. There should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. 
+
+7.Choose API key. And there you go your YouTube Data API V3 key.
+
+8. Save this key and protect it, you should treat your key like your password.
+
+### Setting up the project on your PC
 
 Create a new folder on your computer for your project. Create a new file: a index.html and a new subfolder called javascripts place a new file inside that folder called script.js.
 
