@@ -2,7 +2,10 @@
 ## Manual for the Youtube Data API V3
 
 ### How to implement the YouTube API v3 in your project, get data from the youtube API and display it as Json in the Console.
-In this tutorial we are going to generate a key for the YouTube API and create a website where we can use the API to display YouTube content.
+In this tutorial we are going to generate a key for the YouTube API and create a website where we can use the API to display YouTube content. After this tutorial you know how to get data from YouTube. 
+
+#### Disclaimer
+After this Tutorial you know how to get data from the API and help you get started how to use that data, but this tutorial wil not explain how to turn that data to a youtube video on your website. 
 
 
 ### First things First
@@ -222,8 +225,12 @@ Write a code that pushes for every object an iframe like this.
 ```
 For more information about this: 
 
-https://developers.google.com/youtube/iframe_api_reference
+https://herman-janssen-age-gues.herokuapp.com/ - A project I made with the YouTube Data API V3
 
-https://api.jquery.com/append/
+https://developers.google.com/youtube/v3/getting-started - YouTube Data API V3
+
+https://developers.google.com/youtube/iframe_api_reference - YouTube iframe information
+
+https://api.jquery.com/append/ - How to push html from a javascript file with Jquery 
 
 
