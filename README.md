@@ -196,10 +196,14 @@ Browse to your project folder, open it, and right click index.html choose open w
 You should see an empty page with a little search bar in the upper left corner. No worries this is great.
 
 Right click somewhere on the page and choose inspect. 
+
+![Image that shows how to open the console in google chrome](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.31.38.png)
  
 You see a popup menu. Choose in the menu for console. If there are any problems with your script, you should see them here. If you don’t see any problems, Great job.
 
 Try to type something in the search bar, if you did all the steps correct you should see a text in your console. This text is in Json format. It’s a way of display data that your computer understands. 
+
+![Image that shows the json file fromt he youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.35.51.png)
  
 Click on the little arrow on the left and do that again on the arrow before items.
 This is an array, an array is nothing more then a couple of objects. This are the 5 first YouTube video’s that will show up if you search YouTube with your search input.  
