@@ -31,6 +31,8 @@ Create a new project in the google developers console. You can do this in the up
 
 6. Click in the left menu for Credentials. There should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. 
 
+ ![Image that shows menu](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2014.02.42.png)
+
 7.Choose API key. And there you go your YouTube Data API V3 key.
 
 8. Save this key and protect it, you should treat your key like your password.
