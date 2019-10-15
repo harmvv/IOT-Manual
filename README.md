@@ -213,10 +213,12 @@ You see a popup menu. Choose in the menu for console. If there are any problems 
 
 Try to type something in the search bar, if you did all the steps correct you should see a text in your console. This text is in Json format. It’s a way of display data that your computer understands. 
 
-![Image that shows the json file fromt he youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.35.51.png)
+![Image that shows the json file from the youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.35.51.png)
  
 Click on the little arrow on the left and do that again on the arrow before items.
 This is an array, an array is nothing more then a couple of objects. This are the 5 first YouTube video’s that will show up if you search YouTube with your search input.  
+
+![Image that shows the json file from the youtube api in details](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2014.06.02.png)
 
 Maybe this all seems a little boring but it is really cool, you just have printed some information from the YouTube system to your website. And with this information we can display those videos on our own website. 
 
