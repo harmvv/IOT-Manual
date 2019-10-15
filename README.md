@@ -4,6 +4,10 @@
 ### How to implement the YouTube API V3 in your project, get data from the youtube API and display it as Json in the Console.
 In this tutorial we are going to generate a key for the YouTube API and create a website where we can use the API to display YouTube content. After this tutorial you know how to get data from YouTube. 
 
+#### Example
+An example I made with the Youtube API.
+https://herman-janssen-age-gues.herokuapp.com/
+
 #### Disclaimer
 After this Tutorial you know how to get data from the API, display this data in the Console and help you get started how to use that data, but this tutorial wil not fully explain how to turn that data to a youtube video on your website. Follow up links will help you, I placed them at the end of this tutorial. 
 
