@@ -7,7 +7,9 @@ In this tutorial we are going to generate a key for the YouTube API and create a
 First go to https://developers.google.com/youtube/v3 and login with your Google account.
 If you don’t have a account, create one. Here you can find all the information about the YouTube V3 API.
 
+First we have to create a new project in the google console, this is a place where you can find your google projects.
 https://console.developers.google.com/?hl=nl
+
 
 Create a new project in the google developers console. You can do this in the upper left next to the Google API’s logo 
 
