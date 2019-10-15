@@ -28,6 +28,7 @@ Create a new folder on your computer for your project. Create a new file: a inde
 
 
 Add this to the html for a standard html layout.
+
 '''
 <!DOCTYPE html>
 <html lang="en">
@@ -44,11 +45,11 @@ Add this to the html for a standard html layout.
     
 </body>
 </html>
-
+'''
 We only use this to access the website in the browser.
 
 In the html we are going to place a search bar, the search bar lives inside a form. We are going to use the input we can place there to search YouTube. Place the next form inside the body tags.
-
+'''
  <form id="search-form" name="search-form" onsubmit="return search()">
     <div class="fieldcontainer">
         <input type="search" name="search-form" id="query" class="search-field" placeholder="search Youtube" >
@@ -57,7 +58,6 @@ In the html we are going to place a search bar, the search bar lives inside a fo
     </div>
     </form>
 '''
-
 We are going to start to work in the JavaScript file. Here we are going to make a connection with the project and the YouTube API.
 
 
