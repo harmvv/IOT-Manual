@@ -211,7 +211,10 @@ This is an array, an array is nothing more then a couple of objects. This are th
 ### End result
 Maybe this all seems a little boring but it is really cool, you just have printed some information from the YouTube system to your website. And with this information we can display those videos on our own website. It is standard that Youtube prints out the first 5 vidoes if you want more read the documantation.  
 
-If you are interested in showing this information on you site with the video. Then you have to create a code that pushes for every object some html to your page, with a YouTube iframe, you can then display the right video. Write a code that pushes for evry object an iframe like this. 
+If you are interested in showing this information on your website with the video. Then you have to create a code that pushes for every object some html to your page, with a YouTube iframe, you can then display the right video. 
+
+#### Example
+Write a code that pushes for every object an iframe like this. 
  ``` bash
       <div class="iframevideo">
          <iframe width="560" height="315" style="display:block;margin:auto;" src="https://www.youtube.com/embed/${Name of the variable where you place the ID of hte youtube video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
