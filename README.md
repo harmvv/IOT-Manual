@@ -28,7 +28,7 @@ Create a new folder on your computer for your project. Create a new file: a inde
 
 
 Add this to the html for a standard html layout.
-
+'''
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +56,7 @@ In the html we are going to place a search bar, the search bar lives inside a fo
 
     </div>
     </form>
-
+'''
 
 We are going to start to work in the JavaScript file. Here we are going to make a connection with the project and the YouTube API.
 
