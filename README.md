@@ -11,6 +11,8 @@ https://console.developers.google.com/?hl=nl
 
 Create a new project in the google developers console. You can do this in the upper left next to the Google API’s logo 
 
+![Image that shows how to create a google project](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Afbeelding1.png)
+
 Start a new project, give it a new and follow the steps and generate a key for the YouTube API V3. In the location field you don’t have to change anything but you can create folders.
 
 Once created, browse to your project its in the spot next to the Google API logo.  
