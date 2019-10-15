@@ -19,6 +19,8 @@ Start a new project, give it a new and follow the steps and generate a key for t
 
 Once created, browse to your project its in the spot next to the Google API logo.  
 
+![Image that shows the search for the youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.57.47.png)
+
 Choose enable API’s and services, search for YouTube and choose the YouTube Data API V3.
  
 Choose enable wait a few seconds. The API is now added to your project. Click in the left menu for Credentials. There should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. Choose API key. And there you go your YouTube Data API V3 key.
