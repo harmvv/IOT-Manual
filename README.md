@@ -39,13 +39,9 @@ Create a new project in the google developers console. You can do this in the up
 
 ### Setting up the project on your PC
 
-Create a new folder on your computer for your project. Create a new file: a index.html and a new subfolder called javascripts place a new file inside that folder called script.js.
+1. Create a new folder on your computer for your project. Create a new file: a index.html and a new subfolder called javascripts place a new file inside that folder called script.js.
 
-
-
-
-
-Add this to the html for a standard html layout.
+2. Add this to the html for a standard html layout.
 
 ```bash
 <!DOCTYPE html>
@@ -64,9 +60,9 @@ Add this to the html for a standard html layout.
 </body>
 </html>
 ```
-We only use this to access the website in the browser.
+We only use this to access the website in the browser. The script tags makes a connetion with your javascript and a Jquery Libary online.
 
-In the html we are going to place a search bar, the search bar lives inside a form. We are going to use the input we can place there to search YouTube. Place the next form inside the body tags.
+3. In the html we are going to place a search bar, the search bar lives inside a form tag. We are going to use the input we can place there to search YouTube. Place the next form inside the body tags.
 ```bash
  <form id="search-form" name="search-form" onsubmit="return search()">
     <div class="fieldcontainer">
@@ -76,18 +72,9 @@ In the html we are going to place a search bar, the search bar lives inside a fo
     </div>
     </form>
 ```
-We are going to start to work in the JavaScript file. Here we are going to make a connection with the project and the YouTube API.
+4. Next we are going to start to work in the JavaScript file. Here we are going to make a connection with the project and the YouTube API. We do this with a JavaScript function, and a little use of jQuery. No worry’s you don’t need any knowledge about jQuery. 
 
-
-
-
-
-
-
-
-Here we are going to start to make a connection with the YouTube API. We do this with a JavaScript function, and a little use of jQuery. No worry’s you don’t need any knowledge about jQuery. 
-
-First we create a little function that gets the input from the search field and when you hit submit it gets the data so we can use in in a other function.
+5. First we create a little function that gets the input from the search field and when you hit submit it gets the data so we can use in in a other function.
 
 ```bash
 $(function(){
@@ -100,9 +87,9 @@ $(function(){
 })
 
 ```
-In the next function we are going to declare what kind of information we want to have from the API. In our case this would be : Snippet, ID,Q and Type. (Q is a parameter that specifies the query term to search for)
+In the next function we are going to declare what kind of information we want to get from the API. In our case this would be : Snippet, ID,Q and Type. (Q is a parameter that specifies the query term to search for)
 
-In the first line of the next code you see we declare the search bar from the HTMl in a variable called q. Under that line of code we make a get request. There we declare a couple of things mentioned above. Replace the key value with you YouTube API key. In this get request we send the input from the search field to the YouTube API and we tell the YouTube API we want the following things back from it.
+In the first line of the next code you see we declare the search bar from the HTMl in a variable called q. Under that line of code we make a get request. There we declare a couple of things mentioned above. Replace the key value with your YouTube API key. In this get request we send the input from the search field to the YouTube API and we tell the YouTube API we want the following things back from it.
 
 ```bash
 function search(){
@@ -193,37 +180,43 @@ And your HTML like this
 </body>
 ```
 
-Time to test our code.
+### Time to test our code.
 
-The best way to test your code is in Google chrome. If you don’t have this browser download it here. 
+#### The best way to test your code is in Google chrome. If you don’t have this browser download it here. 
 
 https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjw3JXtBRC8ARIsAEBHg4nlfkx3Qm4JkfwwXzHH1LntpUjoV2xHYE713h3NPkgYyaAtx7vqQLAaAmzQEALw_wcB&gclsrc=aw.ds
 
-Browse to your project folder, open it, and right click index.html choose open with google chrome 
+1. Browse to your project folder, open it, and right click index.html choose open with google chrome 
 
 ![Image that shows how to open the index.html in google chrome](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.29.30.png)
 
-You should see an empty page with a little search bar in the upper left corner. No worries this is great.
+2. You should see an empty page with a little search bar in the upper left corner. No worries this is great.
 
 Right click somewhere on the page and choose inspect. 
 
 ![Image that shows how to open the console in google chrome](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.31.38.png)
  
-You see a popup menu. Choose in the menu for console. If there are any problems with your script, you should see them here. If you don’t see any problems, Great job.
+3. You see a popup menu. Choose in the menu for console. If there are any problems with your script, you should see them here. If you don’t see any problems, Great job.
 
-Try to type something in the search bar, if you did all the steps correct you should see a text in your console. This text is in Json format. It’s a way of display data that your computer understands. 
+4. Try to type something in the search bar, if you did all the steps correct you should see a text in your console. This text is in Json format. It’s a way of display data that your computer understands. 
 
 ![Image that shows the json file from the youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.35.51.png)
  
-Click on the little arrow on the left and do that again on the arrow before items.
+5. Click on the little arrow on the left and do that again on the arrow before items.
 This is an array, an array is nothing more then a couple of objects. This are the 5 first YouTube video’s that will show up if you search YouTube with your search input.  
 
 ![Image that shows the json file from the youtube api in details](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2014.06.02.png)
 
-Maybe this all seems a little boring but it is really cool, you just have printed some information from the YouTube system to your website. And with this information we can display those videos on our own website. 
 
-If you are interested in showing this information on you site with the video. Then you have to create a code that pushes for every object some html to your page, with a YouTube iframe, you can then display the right video if you change the add to the YouTube URL the ID’s of the videos.
+### End result
+Maybe this all seems a little boring but it is really cool, you just have printed some information from the YouTube system to your website. And with this information we can display those videos on our own website. It is standard that Youtube prints out the first 5 vidoes if you want more read the documantation.  
 
+If you are interested in showing this information on you site with the video. Then you have to create a code that pushes for every object some html to your page, with a YouTube iframe, you can then display the right video. Write a code that pushes for evry object an iframe like this. 
+ ``` bash
+      <div class="iframevideo">
+         <iframe width="560" height="315" style="display:block;margin:auto;" src="https://www.youtube.com/embed/${Name of the variable where you place the ID of hte youtube video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+```
 For more information about this: 
 
 https://developers.google.com/youtube/iframe_api_reference
