@@ -191,6 +191,8 @@ https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjw3JXtBRC8ARIsAEBHg4nlfkx3
 
 Browse to your project folder, open it, and right click index.html choose open with google chrome 
 
+![Image that shows how to open the index.html in google chrome](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.29.30.png)
+
 You should see an empty page with a little search bar in the upper left corner. No worries this is great.
 
 Right click somewhere on the page and choose inspect. 
