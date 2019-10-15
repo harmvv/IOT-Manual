@@ -212,8 +212,9 @@ Maybe this all seems a little boring but it is really cool, you just have printe
 
 If you are interested in showing this information on you site with the video. Then you have to create a code that pushes for every object some html to your page, with a YouTube iframe, you can then display the right video if you change the add to the YouTube URL the ID’s of the videos.
 
-For more information about this 
+For more information about this: 
 https://developers.google.com/youtube/iframe_api_reference
+
 https://api.jquery.com/append/
 
 
