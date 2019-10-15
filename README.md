@@ -29,7 +29,7 @@ Create a new folder on your computer for your project. Create a new file: a inde
 
 Add this to the html for a standard html layout.
 
-'''
+```bash
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,11 +45,11 @@ Add this to the html for a standard html layout.
     
 </body>
 </html>
-'''
+```
 We only use this to access the website in the browser.
 
 In the html we are going to place a search bar, the search bar lives inside a form. We are going to use the input we can place there to search YouTube. Place the next form inside the body tags.
-'''
+```bash
  <form id="search-form" name="search-form" onsubmit="return search()">
     <div class="fieldcontainer">
         <input type="search" name="search-form" id="query" class="search-field" placeholder="search Youtube" >
@@ -57,7 +57,7 @@ In the html we are going to place a search bar, the search bar lives inside a fo
 
     </div>
     </form>
-'''
+```
 We are going to start to work in the JavaScript file. Here we are going to make a connection with the project and the YouTube API.
 
 
@@ -71,7 +71,7 @@ Here we are going to start to make a connection with the YouTube API. We do this
 
 First we create a little function that gets the input from the search field and when you hit submit it gets the data so we can use in in a other function.
 
-
+```bash
 $(function(){
     var searchField = $("#query");
    
@@ -81,12 +81,12 @@ $(function(){
         });
 })
 
-
+```
 In the next function we are going to declare what kind of information we want to have from the API. In our case this would be : Snippet, ID,Q and Type. (Q is a parameter that specifies the query term to search for)
 
 In the first line of the next code you see we declare the search bar from the HTMl in a variable called q. Under that line of code we make a get request. There we declare a couple of things mentioned above. Replace the key value with you YouTube API key. In this get request we send the input from the search field to the YouTube API and we tell the YouTube API we want the following things back from it.
 
-
+```bash
 function search(){
 
     // gef form inputs
@@ -106,7 +106,7 @@ function search(){
             }
     );
 }
-
+```
 
 
 
@@ -117,7 +117,7 @@ Your code should now look something like this
 
 
 
-
+```bash
 $(function(){
     var searchField = $("#query");
    
@@ -146,11 +146,12 @@ function search(){
             }
     );
 }
-
+```
 
 
 And your HTML like this
 
+```bash
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,7 +173,7 @@ And your HTML like this
         </form>
     
 </body>
-
+```
 
 Time to test our code.
 
