@@ -11,6 +11,13 @@ https://herman-janssen-age-gues.herokuapp.com/
 #### Disclaimer
 After this Tutorial you know how to get data from the API, display this data in the Console and help you get started how to use that data, but this tutorial wil not fully explain how to turn that data to a youtube video on your website. Follow up links will help you, I placed them at the end of this tutorial. 
 
+#### Requirements
+1. For this project you will need a text editor.
+https://en.wikipedia.org/wiki/Text_editor Read this if you don't know what a text editor is.
+https://www.keycdn.com/blog/best-text-editors for the best free text editors
+
+2. Some basic knowledge about Html and JavaScript is handy but not necessary.
+
 
 ### First things First
 Go to https://developers.google.com/youtube/v3 and login with your Google account.
@@ -24,9 +31,9 @@ Create a new project in the google developers console. You can do this in the up
 
 ![Image that shows how to create a google project](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Afbeelding1.png)
 
-2. Start a new project, give it a new and follow the steps and generate a key for the YouTube API V3. In the location field you don’t have to change anything but you can create folders.
+2. Start a new project, give it a name and follow the steps to generate a key for the YouTube API V3. In the location field you don’t have to change anything but you can create folders.
 
-3. Once created, browse to your project its in the spot next to the Google API logo.  
+3. Once created, browse to your project it's in the spot next to the Google API logo.  
 
  ![Image that shows how to add a new api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.56.40.png)
 
@@ -34,13 +41,13 @@ Create a new project in the google developers console. You can do this in the up
  
  ![Image that shows the search for the youtube api](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2012.57.47.png)
  
-5. Choose enable wait a few seconds. The API is now added to your project. 
+5. Choose enable and wait a few seconds. The API is now added to your project. 
 
-6. Click in the left menu for Credentials. There should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. 
+6. Click in the left menu for Credentials. Normally there should be your YouTube API key but you first need to configure some settings. Choose configure the permission screen. You only have to enter a name there. If you are going to publish the website later you should add more details. Now you can choose for create credentials. 
 
  ![Image that shows menu](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2014.02.42.png)
 
-7.Choose API key. And there you go your YouTube Data API V3 key.
+7.Choose API key and there you go, your YouTube Data API V3 key.
 
 8. Save this key and protect it, you should treat your key like your password.
 
@@ -48,7 +55,7 @@ Create a new project in the google developers console. You can do this in the up
 
 1. Create a new folder on your computer for your project. Create a new file: a index.html and a new subfolder called javascripts place a new file inside that folder called script.js.
 
-2. Add this to the html for a standard html layout.
+2. Open the project folder in your text editor and add this to the html for a standard html layout.
 
 ```bash
 <!DOCTYPE html>
