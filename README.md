@@ -47,7 +47,7 @@ Create a new project in the google developers console. You can do this in the up
 
  ![Image that shows menu](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-15%20om%2014.02.42.png)
 
-7.Choose API key and there you go, your YouTube Data API V3 key.
+7. Choose API key and there you go, your YouTube Data API V3 key.
 
 8. Save this key and protect it, you should treat your key like your password.
 
