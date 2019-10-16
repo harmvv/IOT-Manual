@@ -55,6 +55,8 @@ Create a new project in the google developers console. You can do this in the up
 
 1. Create a new folder on your computer for your project. Create a new file: a index.html and a new subfolder called javascripts place a new file inside that folder called script.js.
 
+ ![Image that shows folder structure](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual.iot/Schermafbeelding%202019-10-16%20om%2007.33.36.png)
+
 2. Open the project folder in your text editor and add this to the html for a standard html layout.
 
 ```bash
