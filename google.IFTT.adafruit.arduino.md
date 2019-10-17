@@ -1,6 +1,6 @@
 
 # Manual for connection between Google assistant and Adruino 
-## with the help off Adafruit.IO and IFTT
+## with the help of Adafruit.IO and IFTT
 
 ### What do you need?
 
