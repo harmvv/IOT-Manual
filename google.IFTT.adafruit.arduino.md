@@ -8,6 +8,7 @@
 2. An account for IFTT and the app.
 3. An account on Adafruit.IOt and knowledge how to create a feed.
 4. A Adruino with a led strip.
+5. Neopixel libary / MQTT Libary / Adafrui.IO Libary
 
 ### Lets create
 1. First create a feed on adafruit
@@ -71,6 +72,8 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 ```
 
 11. Place the following code in your Adruino file.
+12. Connect your led strip to D5
+13. This Arduino code works with Neopixel 
 
 ``` bash
 
