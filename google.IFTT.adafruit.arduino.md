@@ -1,6 +1,8 @@
-
 # Manual for connection between Google assistant and Adruino 
 ## with the help of Adafruit.IO and IFTT
+
+### What will it do?
+You will be able to turn the led light to a specifc color by talking to the Google Assistent
 
 ### What do you need?
 
@@ -25,7 +27,7 @@ Here a example of one applet, for our adruino example i created 4 with the value
 10. Do you get the right answer back? Great, lets see your feed at Adafrui.io and check if the "1" value has arrived.
 
 
-11. Make in ardruino a new project with a "config.h" file 
+11. Make in ardruino a new project with a "config.h" file, copy the code below and change the ***...*** to your details. 
 ![Image that shows IFTTT example](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual2/Mapstructure.png)
 ```bash
 /************************ Adafruit IO Config *******************************/
@@ -75,8 +77,8 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 ```
 
 11. Place the following code in your Adruino file.
-12. Connect your led strip to D5
-13. This Arduino code works with Neopixel 
+12. Connect your led strip to D5.
+13. This code works with multiple libaries, check if you have them installed. You can find them at the begin of this tutorial.
 
 ``` bash
 
@@ -240,3 +242,5 @@ void handleMessage(AdafruitIO_Data *data) {
 }
 
 ```
+
+14. Upload it to your Adruino, test the code through talking with the Google assistent. If it its not working check if the value's update on the Adruino.io website.
