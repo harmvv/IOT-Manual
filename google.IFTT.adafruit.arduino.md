@@ -27,7 +27,7 @@ Here a example of one applet, for our adruino example i created 4 with the value
 10. Do you get the right answer back? Great, lets see your feed at Adafrui.io and check if the "1" value has arrived.
 
 
-11. Make in ardruino a new project with a "config.h" file, copy the code below and change the ***...*** to your details. 
+11. Make in ardruino a new project with a "config.h" file, copy the code below and change the "*...*" to your details. 
 ![Image that shows IFTTT example](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual2/Mapstructure.png)
 ```bash
 /************************ Adafruit IO Config *******************************/
