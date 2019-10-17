@@ -1,4 +1,4 @@
-# Manual for connection between Google assistant and Adruino 
+# Manual for connection between Google assistant and Arduino 
 ## with the help of Adafruit.IO and IFTT
 
 ### What will it do?
@@ -9,7 +9,7 @@ You will be able to turn the led light to a specifc color by talking to the Goog
 1. A device with the google assistant.
 2. An account for IFTT and the app.
 3. An account on Adafruit.IO and knowledge how to create a feed.
-4. A Adruino with a led strip.
+4. A Arduino with a led strip.
 5. Neopixel libary / MQTT Libary / Adafruit.IO Libary
 
 ### Lets create
@@ -21,13 +21,13 @@ You will be able to turn the led light to a specifc color by talking to the Goog
 6. AFter setting up Google assistant, choose that and search for Adafruit
 7. Choose Adafruit and click on the feed you just made.
 8. Give a value, this value can be as simple as "1", we are going to use that value to controll the arduino.
-Here a example of one applet, for our adruino example i created 4 with the value's 0,1,2,3
+Here a example of one applet, for our arduino example i created 4 with the value's 0,1,2,3
 ![Image that shows IFTTT example](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual2/ifttt.jpg)
 9. Lets test your Applet, talk to an device where you are signed in with your google assistent, say the commando phrase.
 10. Do you get the right answer back? Great, lets see your feed at Adafrui.io and check if the "1" value has arrived.
 
 
-11. Make in ardruino a new project with a "config.h" file, copy the code below and change the "*...*" to your details. 
+11. Make in arduino a new project with a "config.h" file, copy the code below and change the "*...*" to your details. 
 ![Image that shows IFTTT example](https://oege.ie.hva.nl/~versevh/afbeeldingen/manual2/Mapstructure.png)
 ```bash
 /************************ Adafruit IO Config *******************************/
@@ -76,7 +76,7 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 // AdafruitIO_Ethernet io(IO_USERNAME, IO_KEY);
 ```
 
-11. Place the following code in your Adruino file.
+11. Place the following code in your Arduino file.
 12. Connect your led strip to D5.
 13. This code works with multiple libaries, check if you have them installed. You can find them at the begin of this tutorial.
 
@@ -243,4 +243,4 @@ void handleMessage(AdafruitIO_Data *data) {
 
 ```
 
-14. Upload it to your Adruino, test the code through talking with the Google assistent. If it its not working check if the value's update on the Adruino.io website.
+14. Upload it to your Arduino, test the code through talking with the Google assistent. If it its not working check if the value's update on the Adafruit.io website.
