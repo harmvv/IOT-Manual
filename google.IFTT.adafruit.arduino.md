@@ -13,10 +13,10 @@ You will be able to turn the led light to a specifc color by talking to the Goog
 5. Neopixel libary / MQTT Libary / Adafrui.IO Libary
 
 ### Lets create
-1. First create a feed on adafruit
-2. Open IFTTT click on "get more" and click on " Make your own Applets from scratch"
-3. Choose if and search for the google assistant
-4. Choose "Say a simple phrase"
+1. First create a feed on adafruit.
+2. Open IFTTT click on "get more" and click on " Make your own Applets from scratch".
+3. Choose if and search for the google assistant.
+4. Choose "Say a simple phrase".
 5. Set up what you want to say, and if you want a response back fill that in. (A response can be handy at the start, if you get the right response you know your applet works. 
 6. AFter setting up Google assistant, choose that and search for Adafruit.io
 7. Choose Adafruit and click on the feed you just made.
