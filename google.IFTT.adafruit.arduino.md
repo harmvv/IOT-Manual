@@ -18,7 +18,7 @@ You will be able to turn the led light to a specifc color by talking to the Goog
 3. Choose if and search for the google assistant.
 4. Choose "Say a simple phrase".
 5. Set up what you want to say, and if you want a response back fill that in. (A response can be handy at the start, if you get the right response you know your applet works. 
-6. AFter setting up Google assistant, choose that and search for Adafruit.io
+6. AFter setting up Google assistant, choose that and search for Adafruit
 7. Choose Adafruit and click on the feed you just made.
 8. Give a value, this value can be as simple as "1", we are going to use that value to controll the arduino.
 Here a example of one applet, for our adruino example i created 4 with the value's 0,1,2,3
